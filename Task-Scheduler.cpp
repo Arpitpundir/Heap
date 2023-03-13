@@ -31,7 +31,6 @@ public:
                 if(--currTask.first){
                     pq.push(currTask);
                 }
-                //cout<<currTask.first<<" "<<currTask.second<<endl;
             }
 
             ans += !pq.empty()?n+1:time;
